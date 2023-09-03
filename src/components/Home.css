@@ -83,7 +83,7 @@
   border-left: 0;
 }
 
-.sidebar-profile-link .a img{
+.sidebar-profile-link .a i{
   width: 20px;
   margin-right: 10px;
 }
@@ -110,7 +110,7 @@
   margin: 5px 0;
 }
 
-.sidebar-activity .a img{
+.sidebar-activity .a i{
   width: 20px;
   margin-right: 10px;
 }
@@ -149,6 +149,11 @@
 .sidebar-news{
   background: #fff;
   padding: 10px 12px;
+}
+.sidebar-news .fa-question{
+  color: #045be6;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 .inforIcon{
@@ -248,12 +253,24 @@
 
 .create-post{
   background: #ffff;
+  border-radius: 10px;
 }
 
-.create-post-input{
+/* .create-post-input{
   padding: 20px 25px 10px;
   display: flex;
   align-items: flex-start;
+  border: 1px solid #333;
+} */
+
+.create-post-input{
+  height: 6vh;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #333;
 }
 
 .create-post-input img{
@@ -285,6 +302,7 @@
   border-top: 1px solid #ccc;
   border-right: 1px solid #cccc;
   flex-basis: 25%;
+  color: #333;
   height: 40px;
   font-size: 13px;
   display: flex;
@@ -293,16 +311,26 @@
   cursor: pointer;
 }
 
-.create-post-links li img{
+.create-post-links li .fa-images{
   width: 15px;
   margin-right: 5px;
+  color: #045be6;
 }
+
+
+.create-post-links li .fa-calendar-alt, .fa-newspaper{
+  width: 15px;
+  margin-right: 5px;
+  color: rgb(193, 147, 77);
+}
+
 
 .create-post-links li:last-child{
   background-color: #045be6;
   color: #fff;
   border-top: 0;
   border-right: 0;
+  border-bottom-right-radius: 10px;
 }
 
 .sort-by{

@@ -19,26 +19,31 @@ function Header() {
         <ul>
             <li>
               <Link className="nav-link" to="/">
+              <i class="fas fa-home"></i>
                 Home
               </Link>
             </li>
             <li>
+            <i class="fas fa-project-diagram"></i>
               <Link className="nav-link" to="/">
                 My Network
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/">
+              <i class="fas fa-suitcase-rolling"></i>
                 Job
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/">
+              <i class="fas fa-envelope"></i>
                 Messaging
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/">
+              <i class="fas fa-bell"></i>
                 Notifications
               </Link>
             </li>
@@ -48,6 +53,9 @@ function Header() {
         <div className="navright">
           <div className="online offline">
             <img src={Profile} alt="" className="profile" />
+          </div>
+          <div className="icont-menu">
+            <i class="fas fa-ellipsis-h"></i>
           </div>
         </div>
       </div>

@@ -22,8 +22,8 @@ function Home() {
                             </ul>
                         </div>
                         <div className="sidebar-profile-link">
-                            <Link className="a" to="/"> My items
-                                <img src="" alt="" />
+                            <Link className="a" to="/">
+                                <i class="fas fa-bookmark"></i> My items
                             </Link>
                             <Link className="a" to="/">
                                 <img src="" alt="" /> Try Premium
@@ -34,48 +34,48 @@ function Home() {
                     <div className="sidebar-activity">
                         <h3>RECENT</h3>
                         <Link className="a" to="/">
-                            <img src="" alt="" /> Web Development
+                            <i class="fas fa-users"></i> Web Development
                         </Link>
                         <Link className="a" to="/">
-                            <img src="" alt="" /> User Interface
+                            <i class="fas fa-users"></i> User Interface
                         </Link>
                         <Link className="a" to="/">
-                            <img src="" alt="" /> Online Learning
+                            <i class="fas fa-users"></i> Online Learning
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> Learn Online
+                        <Link className="a" to="/learn-online">
+                            <i class="fas fa-users"></i> Learn Online
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> Code Better
+                        <Link className="a" to="/codewise">
+                            <i class="fas fa-users"></i> CodeWise
                         </Link>
                         <h3>Groups</h3>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> C++ Game Designer
+                        <Link className="a" to="/c-game">
+                            <i class="fas fa-users"></i> C++ Game Designer
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> Python & Javascript
+                        <Link className="a" to="/python-javascript">
+                            <i class="fas fa-users"></i> Python & Javascript
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> JavaScript & TensorFlow
+                        <Link className="a" to="/script-tensor">
+                            <i class="fas fa-users"></i> JavaScript & TensorFlow
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> C# DATABASE Managment
+                        <Link className="a" to="/database-mana">
+                            <i class="fas fa-users"></i> C# DATABASE Managment
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> Code ReactJs Client Side
+                        <Link className="a" to="/react-dev">
+                            <i class="fas fa-users"></i> Code ReactJs Client Side
                         </Link>
                         <h3>HASHTAG</h3>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> userinterface
+                        <Link className="a" to="/userinter">
+                            <i class="fas fa-users"></i> userinterface
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> ddatabase managnent
+                        <Link className="a" to="/rails">
+                            <i class="fas fa-users"></i> ruby on rails
                         </Link>
-                        <Link className="a" to="/">
-                            <img src="" alt="" /> onlinelearning
+                        <Link className="a" to="/git">
+                            <i class="fas fa-users"></i> git
                         </Link>
                         <div className="discover-more-link">
-                            <Link className="a" to="/">
+                            <Link className="a" to="/dicover">
                                 Discover more
                             </Link>
                         </div>
@@ -89,12 +89,12 @@ function Home() {
                     <div className="create-post">
                         <div className="create-post-input">
                             <img src={UserProfileBord} alt="user-name" />
-                            <textarea placeholder='Write a post' rows="10"></textarea>
+                            <textarea placeholder='Write a post' cols="30" rows="10"></textarea>
                         </div>
                         <div className="create-post-links">
                             <li><i class="fas fa-images"></i>Photo</li>
-                            <li><img src="" alt="" />Video</li>
-                            <li><img src="" alt="" />Event</li>
+                            <li><i class="fas fa-calendar-alt"></i>Video</li>
+                            <li><i class="fas fa-newspaper"></i>Event</li>
                             <li>Post</li>
                         </div>
                     </div>
@@ -113,8 +113,8 @@ function Home() {
                                 <small>2 hours ago</small>
                             </div>
                         </div>
-                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus cupiditate, est minus quod fuga aliquid nobis mollitia eum modi magni numquam exercitationem sit culpa. Suscipit voluptates animi ullam minus magnam voluptatum quidem, nostrum explicabo nemo totam aperiam sunt consequatur? Similique ducimus ea nulla reprehenderit non rem voluptas eius fuga?</p>
-                         <img src="" alt="" className=''/>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus cupiditate, est minus quod fuga aliquid nobis mollitia eum modi magni numquam exercitationem sit culpa. Suscipit voluptates animi ullam minus magnam voluptatum quidem, nostrum explicabo nemo totam aperiam sunt consequatur? Similique ducimus ea nulla reprehenderit non rem voluptas eius fuga?</p>
+                        <img src="" alt="" className='' />
                     </div>
                 </div>
                 {/*  */}
@@ -122,7 +122,7 @@ function Home() {
 
                 <div className="right-sidebar">
                     <div className="sidebar-news">
-                        <img src="https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/3be4b90c-4f4f-45bd-951a-eb646970dbd5/DreamShaper_v7_beautiful_dark_skin_A_young_individual_in_their_1.jpg?w=512" alt="" className='inforIcon' />
+                        <i class="fas fa-question inforIcon"></i>
                         <h3>Tranding News</h3>
                         <Link className="a" to="/">
                             High demand for skilled manpower
@@ -162,7 +162,7 @@ function Home() {
                     </div>
 
                     <div className="sidebar-useful-links">
-                    <Link className="ad-links" to="/">
+                        <Link className="ad-links" to="/">
                             About
                         </Link>
                         <Link className="ad-links" to="/">

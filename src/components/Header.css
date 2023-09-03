@@ -33,6 +33,9 @@
   padding-right: 5px;
   position: relative;
 }
+.navmiddle ul li .nav-link i{
+  margin-right: 3px;
+}
 
 .navmiddle ul li .nav-link::after{
   content: '';
@@ -55,10 +58,26 @@
    width: 50px;
    border-radius: 50px;
    cursor: pointer;
+   /* margin-right: 3px; */
 }
 
 .online{
   position: relative;
+  margin-right: 5px;
+}
+
+.navright{
+  display: flex;
+}
+
+.icont-menu{
+  /* background-color: #000; */
+}
+
+.fa-ellipsis-h{
+  color: #045be6;
+  font-size: 20px;
+  /* font-weight: 500; */
 }
 
 .online::after{
