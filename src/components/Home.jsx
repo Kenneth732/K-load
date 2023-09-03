@@ -92,7 +92,7 @@ function Home() {
                             <textarea placeholder='Write a post' rows="10"></textarea>
                         </div>
                         <div className="create-post-links">
-                            <li><img src="" alt="" />Photo</li>
+                            <li><i class="fas fa-images"></i>Photo</li>
                             <li><img src="" alt="" />Video</li>
                             <li><img src="" alt="" />Event</li>
                             <li>Post</li>
