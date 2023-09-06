@@ -3,6 +3,14 @@ import './Home.css'
 import UserProfileBord from './assets/Kenne.jpg'
 import BackgroundProfile from './assets/ken-brown.png'
 import { Link } from 'react-router-dom'
+import Places from './assets/nak.jpg'
+import User1 from './assets/post1.jpg'
+import User2 from './assets/post2.jpg'
+import User3 from './assets/post3.jpg'
+import Post1 from './assets/post1.jpg'
+import Post2 from './assets/post2.jpg'
+import Post3 from './assets/post3.jpg'
+import Me from './assets/me.jpg'
 
 function Home() {
     return (
@@ -10,7 +18,7 @@ function Home() {
             <div className="container">
                 <div className="left-sidebar">
                     <div className="profile-box">
-                        <img src="https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/3be4b90c-4f4f-45bd-951a-eb646970dbd5/DreamShaper_v7_beautiful_dark_skin_A_young_individual_in_their_1.jpg?w=512" alt="" className='profile-img' />
+                        <img src={Me} alt="" className='profile-img' />
                         <div className="sidebar-profile-info">
                             <img src={UserProfileBord} alt="" />
                             <h1>Dean Wichester</h1>
@@ -106,7 +114,7 @@ function Home() {
 
                     <div className="post">
                         <div className="post-author">
-                            <img src="" alt="" />
+                            <img src={UserProfileBord} alt="" />
                             <div>
                                 <h1>Dean Doe</h1>
                                 <small>Creator of A-speed WebApplication</small>
@@ -114,7 +122,182 @@ function Home() {
                             </div>
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus cupiditate, est minus quod fuga aliquid nobis mollitia eum modi magni numquam exercitationem sit culpa. Suscipit voluptates animi ullam minus magnam voluptatum quidem, nostrum explicabo nemo totam aperiam sunt consequatur? Similique ducimus ea nulla reprehenderit non rem voluptas eius fuga?</p>
-                        <img src="" alt="" className='' />
+                        <img src={Places} alt="" className='post-data' />
+
+                        <div className="post-status">
+                            <div>
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <span className='liked-user'>Mike Smith snd 12 others</span>
+                            </div>
+                            <div>
+                                <span>300 comments &middot; 40 shared</span>
+                            </div>
+                        </div>
+                        <div className='post-activity'>
+                            <div className="">
+                                <img src="" alt="" className="post-activity-user-icom" />
+                                <img src="" alt="" className="post-activity-arrow-icom" />
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>Like</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>comment</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>share</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>send</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="post">
+                        <div className="post-author">
+                            <img src={User1} alt="" />
+                            <div>
+                                <h1>Dean Doe</h1>
+                                <small>Creator of A-speed WebApplication</small>
+                                <small>2 hours ago</small>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus cupiditate, est minus quod fuga aliquid nobis mollitia eum modi magni numquam exercitationem sit culpa. Suscipit voluptates animi ullam minus magnam voluptatum quidem, nostrum explicabo nemo totam aperiam sunt consequatur? Similique ducimus ea nulla reprehenderit non rem voluptas eius fuga?</p>
+                        <img src={Post1} alt="" className='post-data' />
+
+                        <div className="post-status">
+                            <div>
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <span className='liked-user'>Mike Smith snd 12 others</span>
+                            </div>
+                            <div>
+                                <span>300 comments &middot; 40 shared</span>
+                            </div>
+                        </div>
+                        <div className='post-activity'>
+                            <div className="">
+                                <img src="" alt="" className="post-activity-user-icom" />
+                                <img src="" alt="" className="post-activity-arrow-icom" />
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>Like</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>comment</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>share</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>send</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="post">
+                        <div className="post-author">
+                            <img src={User2} alt="" />
+                            <div>
+                                <h1>Dean Doe</h1>
+                                <small>Creator of A-speed WebApplication</small>
+                                <small>2 hours ago</small>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus cupiditate, est minus quod fuga aliquid nobis mollitia eum modi magni numquam exercitationem sit culpa. Suscipit voluptates animi ullam minus magnam voluptatum quidem, nostrum explicabo nemo totam aperiam sunt consequatur? Similique ducimus ea nulla reprehenderit non rem voluptas eius fuga?</p>
+                        <img src={Post2} alt="" className='post-data' />
+
+                        <div className="post-status">
+                            <div>
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <span className='liked-user'>Mike Smith snd 12 others</span>
+                            </div>
+                            <div>
+                                <span>300 comments &middot; 40 shared</span>
+                            </div>
+                        </div>
+                        <div className='post-activity'>
+                            <div className="">
+                                <img src="" alt="" className="post-activity-user-icom" />
+                                <img src="" alt="" className="post-activity-arrow-icom" />
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>Like</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>comment</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>share</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>send</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="post">
+                        <div className="post-author">
+                            <img src={User3} alt="" />
+                            <div>
+                                <h1>Dean Doe</h1>
+                                <small>Creator of A-speed WebApplication</small>
+                                <small>2 hours ago</small>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut possimus cupiditate, est minus quod fuga aliquid nobis mollitia eum modi magni numquam exercitationem sit culpa. Suscipit voluptates animi ullam minus magnam voluptatum quidem, nostrum explicabo nemo totam aperiam sunt consequatur? Similique ducimus ea nulla reprehenderit non rem voluptas eius fuga?</p>
+                        <img src={Post3} alt="" className='post-data' />
+
+                        <div className="post-status">
+                            <div>
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <img src="" alt="" />
+                                <span className='liked-user'>Mike Smith snd 12 others</span>
+                            </div>
+                            <div>
+                                <span>300 comments &middot; 40 shared</span>
+                            </div>
+                        </div>
+                        <div className='post-activity'>
+                            <div className="">
+                                <img src={User2} alt="" className="post-activity-user-icom" />
+                                <img src="" alt="" className="post-activity-arrow-icom" />
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>Like</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>comment</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>share</span>
+                            </div>
+                            <div className='post-activity-link'>
+                                <img src="" alt="" />
+                                <span>send</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/*  */}

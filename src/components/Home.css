@@ -6,11 +6,12 @@
 }
 
 .left-sidebar{
-  margin-top: 10%;
+  top: 73px;
   flex-basis: 25%;
   align-self: flex-start;
   /* background: goldenrod; */
   height: 100vh;
+  position: sticky;
 }
 
 .profile-box{
@@ -139,7 +140,8 @@
 /* Right side Bar */
 
 .right-sidebar{
-  margin-top: 10%;
+  top: 73px;
+  position: sticky;
   flex-basis: 25%;
   align-self: flex-start;
   /* background: goldenrod; */
@@ -365,12 +367,14 @@
   background: #fff;
   padding: 20px 25px 5px;
   margin: 5px 0 15px;
+  color: #333;
 }
 
 .post-author{
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
+  color: #333;
 }
 
 .post-author img{
@@ -389,4 +393,66 @@
 .post-author small{
   display: block;
   margin-bottom: -2px;
+}
+
+.post p{
+  font-size: 14px;
+  margin-bottom: 15px
+}
+
+.post-data{
+  width: 100%;
+}
+
+.post-status{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+}
+
+.post-status div{
+  display: flex;
+  align-items: center;
+}
+
+.post-status img{
+  width: 15px;
+  margin-right: -5px;
+}
+
+.liked-user{
+  margin-left: 10px;
+}
+
+.post-activity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.post-activity div{
+  display: flex;
+  align-items: center;
+}
+
+.post-activity-user-icom{
+  width: 22px;
+  border-radius: 50%;
+}
+
+.post-activity-arrow-icom{
+  width: 12px;
+  margin-left: 5px;
+}
+
+.post-activity-link img{
+  width: 18px;
+  margin-right: 8px;
 }
